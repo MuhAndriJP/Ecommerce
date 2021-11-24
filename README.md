@@ -109,9 +109,8 @@ Contributor :
 [![Linkedin: Nuril H](https://img.shields.io/badge/-NurilH-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sahril-mahendra/)](https://www.linkedin.com/)
 [![GitHub Nuril H](https://img.shields.io/github/followers/NurilH?label=follow&style=social)](https://github.com/NurilH)
 
-[![Linkedin: M Andri JP](https://img.shields.io/badge/-
--blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/muhammad-andri-j-p/)](https://www.linkedin.com/in/muhammad-andri-j-p)
-[![GitHub M Andri JP](https://img.shields.io/github/followers/NurilH?label=follow&style=social)](https://github.com/MuhAndriJP)
+[![Linkedin: M Andri JP](https://img.shields.io/badge/-M_Andri_JP-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/muhammad-andri-j-p/)](https://www.linkedin.com/in/muhammad-andri-j-p/)
+[![GitHub M Andri JP](https://img.shields.io/github/followers/MuhAnddriJP?label=follow&style=social)](https://github.com/MuhAndriJP)
 <br>
 Mentor :
 <br>
