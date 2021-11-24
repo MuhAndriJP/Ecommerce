@@ -22,7 +22,7 @@
 <br/>
 <div align="center">
 <!--  mengarah ke repo  -->
-  <a href="https://github.com/NurilH/project1-alta-be4">
+  <a href="https://github.com/MuhAndriJP/Ecommerce">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -109,7 +109,7 @@ Contributor :
 [![Linkedin: Nuril H](https://img.shields.io/badge/-NurilH-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sahril-mahendra/)](https://www.linkedin.com/)
 [![GitHub Nuril H](https://img.shields.io/github/followers/NurilH?label=follow&style=social)](https://github.com/NurilH)
 
-[![Linkedin: Andri J](https://img.shields.io/badge/-AndriJ-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sahril-mahendra/)](https://www.linkedin.com/)
+[![Linkedin: Andri J](https://img.shields.io/badge/-AndriJ-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sahril-mahendra/)](https://www.linkedin.com/in/muhammad-andri-j-p)
 [![GitHub Andri J](https://img.shields.io/github/followers/NurilH?label=follow&style=social)](https://github.com/NurilH)
 <br>
 Mentor :
