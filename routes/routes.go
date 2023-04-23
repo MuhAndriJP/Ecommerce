@@ -3,6 +3,7 @@ package routes
 import (
 	"project_altabe4_1/constants"
 	"project_altabe4_1/controllers"
+	"project_altabe4_1/external/google"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -14,6 +15,10 @@ func New() *echo.Echo {
 	// users
 	e.POST("/users", controllers.CreateUserControllers)
 	e.POST("/login", controllers.LoginUserControllers)
+
+	// Google
+	e.GET("/api/google", google.NewGoogleAuth().HandleGoogleLogin)
+	e.GET("/api/UserOauth", google.NewGoogleAuth().HandleGoogleCallback)
 
 	// group JWT
 	j := e.Group("/jwt")

@@ -1,6 +1,7 @@
 package config
 
 import (
+	"fmt"
 	"os"
 
 	"project_altabe4_1/models"
@@ -13,11 +14,15 @@ var DB *gorm.DB
 
 // inisialisasi database
 func InitDB() {
-	config := os.Getenv("CONNECTION_DB")
+	usernameAndPassword := fmt.Sprint(os.Getenv("db_user")) + ":" + fmt.Sprint(os.Getenv("db_password"))
+	// usernameAndPassword := fmt.Sprint(os.Getenv("QASIR_DB_USER")) + ":" + "!q2W_@Lf4n_#E4r_Qa51r"
+	hostName := "tcp(" + fmt.Sprint(os.Getenv("db_host")) + ":" + fmt.Sprint(os.Getenv("db_port")) + ")"
+	urlConnection := usernameAndPassword + "@" + hostName + "/" + fmt.Sprint(os.Getenv("db_database")) + "?charset=utf8&parseTime=true&loc=UTC"
+	// config := os.Getenv("CONNECTION_DB")
 
 	var e error
 
-	DB, e = gorm.Open(mysql.Open(config), &gorm.Config{})
+	DB, e = gorm.Open(mysql.Open(urlConnection), &gorm.Config{})
 	if e != nil {
 		panic(e)
 	}
